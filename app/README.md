@@ -1,0 +1,1 @@
+#### All of your application's pages should live in folders located here

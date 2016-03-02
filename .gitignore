@@ -1,0 +1,19 @@
+.DS_Store
+.DS_Store?
+Thumbs.db
+/build
+/release
+*-ck.js
+*.orig
+**codekit-config.json
+**config.codekit
+**.log
+*.log
+
+### generated & installed files
+/node_modules
+/bower_components
+/assets
+/common/**/gravel.js
+/common/manager/pile.json
+

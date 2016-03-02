@@ -1,0 +1,28 @@
+<script type="text/x-handlebars-template" data-template-id="stone-base">
+<div id="{{type}}-{{id}}" class="{{join cls}}" data-stone-type="{{type}}">
+{{{content}}}
+</div>
+</script>
+
+<script type="text/x-handlebars-template" data-template-id="stone-simple">
+<div id="{{type}}-{{id}}" class="{{join cls}}" data-stone-type="{{type}}">
+	<div class="stone__content">
+		<header class="stone__header">
+			{{#if title}}<h1 class="stone__title" {{#if this.count}}data-count="{{this.count.length}}"{{/if}}>{{title}}</h1>{{/if}}
+			{{#if actions}}
+			<div class="stone__actions">
+				{{#each actions}}
+				<a href="#" data-toggle="{{name}}"{{#if target}}data-target="{{target}}"{{/if}}><i class="icon sch-{{icon}}"></i></a>
+				{{/each}}
+			</div>
+			{{/if}}
+		</header>
+		<div class="stone__body">
+			{{{content}}}
+		</div>
+		{{#if footer}}
+		{{{footer}}}
+		{{/if}}
+	</div>
+</div>
+</script>

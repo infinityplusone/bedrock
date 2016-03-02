@@ -1,0 +1,33 @@
+{
+  "name": "bedrock",
+  "version": "0.1.0",
+  "description": "bedrock",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinityplusone/bedrock.git"
+  },
+  "authors": [
+    "infinityplusone"
+  ],
+  "license": "LicenseRed-README.md",
+  "homepage": "https://github.com/infinityplusone/bedrock.git",
+  "main": "Gruntfile.js",
+  "moduleType": [],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "handlebars": "^4.0.5",
+    "jquery": "*",
+    "jquery-enable": "*",
+    "moment": "^2.10.6",
+    "requirejs": "^2.1.22",
+    "requirejs-text": "^2.0.12"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "tasks"
+  ]
+}
